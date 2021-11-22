@@ -1,0 +1,20 @@
+ul{list-style: none}
+h1{text-align: center}
+header{width: 100%}
+nav{display: flex; align-items: center; justify-content: space-between; margin: 1%}
+nav ul{display: flex}
+main{display: flex; justify-content: center}
+main div{flex: 1}
+main div, main form{margin: 1vh}
+.resultContainer{display: flex; justify-content: space-between}
+.resultContainer div{flex: 1}
+.centerContent{display: flex; justify-content: center}
+.logo{background-image: url("img/Icons8_flat_currency_exchange.svg"); background-size: contain; background-position: center; background-repeat: no-repeat; width: 20vw; height: 20vh}
+.logo:hover{cursor: pointer}
+footer{margin: 2% 0; display: flex; justify-content: space-around}
+.marginRight{margin-right: 5px}
+.marginRight:hover{cursor: pointer}
+
+@media (max-width: 700px) {
+    main{flex-direction: column}
+}
